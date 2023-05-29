@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Library management system</title>
+		<link rel="stylesheet" type="text/css" href="main.css">
+	</head>
+	<body class="regi">
+		<nav>
+			<ul>
+				<h1>Library management system: Sign in</h1>
+				<li>
+					<span style="color: white">Home</span>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href ="What.html">What is?</a></li>
+						<li><a href ="Importance.html">Importance</a></li>
+						<li><a href ="Adv.html">Advantages</a></li>
+						<li><a href ="system.html">System requirement</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="info.html">About us</a>
+				</li>
+				<li>
+					<a href="Search.html">Search book</a>
+				</li>
+				<li>
+					<a href="login.html">Login</a>
+				</li>
+			</ul>
+		</nav>
+		<div class="regi">
+			<div class="rcontainer">
+				<h1>Sign in</h1>
+				<br/>
+				<form action="Search.html" method="POST">
+					<table class="regi">
+						<tr>
+							<td>First name:</td>
+							<td><input type="text" name="fname" placeholder="Enter your first name" size="40" class="regi"></td>
+						</tr>
+						<tr>
+							<td>Last name:</td>
+							<td><input type="text" name="lname" placeholder="Enter your last name" size="40" class="regi"></td>
+						</tr>
+						<tr>
+							<td>Gender:</td>
+							<td>
+								<input type="radio" name="Gender" class="regi">Male
+								<input type="radio" name="Gender" class="regi">Female
+								<input type="radio" name="Gender" class="regi">Other
+							</td>
+						</tr>
+						<tr>
+							<td>Date of birth:</td>
+							<td><input type="Date" name="DOB" class="regi"></td>
+						</tr>
+						<tr>
+							<td>Email ID:</td>
+							<td><input type="Email" name="Email" placeholder="Enter your e-mail id" size="40" class="regi"></td>
+						</tr>
+						<tr>
+							<td>Address:</td>
+							<td><textarea name="add" placeholder="Enter your residential address" rows="3" cols="40" class="regi"></textarea><td>
+						</tr>
+						<tr>
+							<td>Mobile/Phone<br/>number:</td>
+							<td>
+								<select class="regi">
+									<option class="regi">+91</option>
+									<option class="regi">022</option>
+								</select>
+								<input type="Phone" name="Mobile" placeholder="Mobile/phone number" class="regi">
+							</td>
+						</tr>
+					</table>
+					<input type="submit" name="submitbtn" value="Sign in" class="regi">
+					<input type="reset" name="resetbtn" value="reset" class="regi">
+					<hr/>
+					<a href="login.html"><div>already a user?<br/>Login</div></a>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>
