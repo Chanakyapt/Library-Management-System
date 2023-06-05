@@ -121,11 +121,6 @@ nav .List div a, .sidebar a, .contact {
 .no-style {
 	all: revert;
 }
-.fig figure{
-	overflow: auto;
-	margin-left: auto;
-	margin-right: auto;
-}
 .contact {
 	width: fit-content;
 	float: right;
