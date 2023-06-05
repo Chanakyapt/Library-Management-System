@@ -77,7 +77,7 @@ nav .List div a, .sidebar a, .contact {
 	display: flex;
 	flex-direction: row;
 	gap: 10px;
-	height: 83.5vh;
+	height: fit-content;
 }
 .sidebar {
 	display: flex;
