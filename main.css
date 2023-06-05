@@ -1,0 +1,225 @@
+body{
+	background-image: url(Background3.jpg);
+	background-repeat: repeat;
+	background-size: cover;
+	font-family: Times New Roman;
+	color: white;
+	margin: 0;
+	padding: 10px;
+}
+nav {
+	display: block;
+	height: auto;
+	padding: 10px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	background-color: rgba(255, 255, 255, 0.85);
+	text-align: center;
+	z-index: 1;
+}
+a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+nav h1 {
+	margin: 0;
+	padding: 0;
+	color: #ff0000;
+	text-shadow: 0.4px 0.4px #000000;
+	margin: 0px 10px 10px 10px;
+	font-size: 40px;
+}
+nav div, nav .List div a, .sidebar a, .contact, .C-main a {
+	display: inline-block;
+	color: #FFFFFF;
+	text-shadow: 0.4px 0.4px #000000;
+	margin-inline: 10px;
+	padding-inline: 10px;
+	width: auto;
+	background-image: linear-gradient(360deg, #FF0000, #DC143C);
+	line-height: 40px;
+	font-size: 30px;
+	text-align: center;
+	text-shadow:2px 2px #000000;
+	border-top: 4px solid white;
+	border-right: 4px solid #868483;
+	border-bottom: 4px solid #868483;
+	border-left: 4px solid white;
+	box-shadow: 3.5px 3.5px 3.5px rgba(68,68,68,0.8);
+	border-radius: 10px;
+	transition-property: box-shadow;
+	transition-duration: 0.15s;
+	transition-timing-function:linear;
+	transition-delay: 0s;
+}
+nav div:hover, nav .List div a:hover, .sidebar a:hover, .contact:hover, .C-main a:hover {
+	box-shadow: 3.5px 3.5px 3.5px #FF0000;
+}
+nav .List div {
+	display: none;
+	position: absolute;
+	height: fit-content;
+	width: max-content;
+	background-image: none;
+	box-shadow: none;
+	background-color: rgba(255, 255, 255, 0.85);
+}
+nav .List:hover div {
+	display: block;
+}
+nav .List div a, .sidebar a, .contact {
+	display: block;
+	margin: 5px;
+	padding: 5px;
+	line-height: 30px;
+	font-size: 22px;
+}
+.container {
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+}
+.container .c-child {
+	flex-grow: 1;
+}
+.sidebar {
+	display: flex;
+	flex-direction: column;
+	width: 15%;
+	padding: 10px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	background-color: rgba(255, 255, 255, 0.85);
+	text-align: center;
+	color: #FF0000;
+}
+.sidebar h2 {
+	display: block;
+	margin: 0;
+	padding: 0;
+	color: #ff0000;
+	text-shadow: 0.4px 0.4px #000000;
+	margin: 0px 10px 10px 10px;
+	font-size: 30px;
+}
+.sidebar a {
+	margin-block: 10px;
+}
+.content {
+	text-align: left;
+	width: 85%;
+	font-size: 25px;
+	padding: 10px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	background-color: rgba(255, 255, 255, 0.85);
+	color: #FF0000;
+}
+.content h1 {
+	text-align: center;
+}
+.no-style {
+	all: revert;
+}
+.fig figure{
+	overflow: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+.contact {
+	width: fit-content;
+	float: right;
+	padding: 5px;
+}
+.C-main {
+	display: flex;
+}
+.C-main a{
+	width: 100%;
+	height: 100px;
+	margin-block: 10px;
+	flex-grow: 1;
+	font-size: 40px;
+	background-image: none;
+	background-color: rgba(255, 0, 0, 0.8);
+}
+.fitter {
+	width: 100%;
+	text-align: center;
+}
+.rcontainer {
+	background-color: rgba(0,0,0,0.8);
+	width: max-content;
+	border-radius: 20px;
+	padding: 20px;
+	text-align: center;
+	margin-inline: auto;
+	font-size: 20px;
+}
+.regi {
+	color: #FFFFFF;
+	text-shadow: 0.4px 0.4px #000000;
+	margin: 10px;
+	padding-inline: 10px;
+	width: auto;
+	background-color: rgba(255, 0, 0, 0.8);
+	line-height: 25px;
+	font-size: 17px;
+	text-align: center;
+	text-shadow:2px 2px #000000;
+	border-top: 2px solid white;
+	border-right: 2px solid #868483;
+	border-bottom: 2px solid #868483;
+	border-left: 2px solid white;
+	box-shadow: 3.5px 3.5px 3.5px rgba(68,68,68,0.8);
+	border-radius: 10px;
+	transition-property: background-color;
+	transition-duration: 0.15s;
+	transition-timing-function:linear;
+	transition-delay: 0s;
+}
+::placeholder {
+	color: white;
+}
+.regi:hover {
+	background-color: rgba(255, 0, 0, 1);
+}
+.small {
+	width: fit-content;
+	margin-inline: auto;
+}
+.tab {
+	border: 1px solid white;
+	padding: 15px;
+	border-radius: 20px;
+}
+figure.book img{
+	width: 35%;
+	border: 2px solid white;
+}
+.tab{
+	margin-right: auto;
+	margin-left: auto;
+	border: none;
+}
+.tab td{
+	overflow: auto;
+	border: 1px solid white;
+	padding: 15px;
+}
+.tab td:first-child{
+	text-align: left;
+}
+.tab tr:first-child td:first-child{
+	text-align: left;
+	border-radius: 20px 0px 0px 0px;
+}
+.tab tr:first-child td:last-child{
+	border-radius: 0px 20px 0px 0px;
+}
+.tab tr:last-child td:first-child{
+	border-radius: 0px 0px 0px 20px;
+}
+.tab tr:last-child td:last-child{
+	border-radius: 0px 0px 20px 0px;
+}
