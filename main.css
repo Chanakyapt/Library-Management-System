@@ -139,7 +139,7 @@ nav .List div a, .sidebar a, .contact {
 	height: 100px;
 	margin-block: 10px;
 	flex-grow: 1;
-	font-size: 40px;
+	font-size: 30px;
 	background-image: none;
 	background-color: rgba(255, 0, 0, 0.8);
 }
