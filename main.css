@@ -104,6 +104,8 @@ nav .List div a, .sidebar a, .contact {
 }
 .sidebar a {
 	margin-block: 10px;
+	overflow: auto;
+	font-size: 18px;
 }
 .content {
 	text-align: left;
