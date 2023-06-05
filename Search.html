@@ -4,82 +4,72 @@
 		<title>Library management system</title>
 		<link rel="stylesheet" type="text/css" href="main.css">
 	</head>
-	<body class="regi">
+	<body>
 		<nav>
-			<ul>
-				<h1>Library management system</h1>
-				<li>
-					<span style="color: white">Home</span>
-					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li><a href ="What.html">What is?</a></li>
-						<li><a href ="Importance.html">Importance</a></li>
-						<li><a href ="Adv.html">Advantages</a></li>
-						<li><a href ="system.html">System requirement</a></li>
-					</ul>
-				</li>
-				<li>
-					<a href="info.html">About us</a>
-				</li>
-				<li>
-					<span style="color: white">Sign in</span>
-					<ul>
-						<li><a href ="registration.html">Sign in</a></li>
-						<li><a href ="login.html">Login</a></li>
-					</ul>
-				</li>
-			</ul>
-		</nav>
-		<form>
-			<div class="regi">
-				<div class="rcontainer">
-					<h1>Search book</h1>
-					<br/>
-					<form>
-						<table class="regi">
-							<tr>
-								<td>Title:</td>
-								<td><input type="text" name="title" placeholder="Enter the title of a book" size="40" class="regi"></td>
-							</tr>
-							<tr>
-								<td>Author:</td>
-								<td><input type="text" name="author" placeholder="Enter the name of author" size="40" class="regi"></td>
-							</tr>
-							<tr>
-								<td>Subject category:</td>
-								<td>
-									<select class="regi" name="category">
-										<option class="regi">None</option>
-										<option class="regi">Action and adventure</option>
-										<option class="regi">Biography/Autobiography</option>
-										<option class="regi">Classic</option>
-										<option class="regi">Comic and Graphic Novel</option>
-										<option class="regi">Crime and Detective</option>
-										<option class="regi">Drama</option>
-										<option class="regi">Fantasy</option>
-										<option class="regi">Historical Fiction</option>
-										<option class="regi">Horror</option>
-										<option class="regi">Humor</option>
-										<option class="regi">Mystery</option>
-										<option class="regi">Mythology</option>
-										<option class="regi">Romance</option>
-										<option class="regi">Reference Books</option>
-										<option class="regi">Science Fiction (Sci-Fi)</option>
-										<option class="regi">Suspense/Thriller</option>
-										<option class="regi">Other</option>
-									</select>
-								</td>
-							</tr>
-							<tr>
-								<td>Publication date:</td>
-								<td><input type="date" name="publishdate" size="40" class="regi"></td>
-							</tr>
-						</table>
-						<a href="book.html" class="regi">Search</a>
-						<input type="reset" name="resetbtn" value="reset" class="regi">
-					</form>
+			<h1>Library management system</h1>
+			<div class="List">Home
+				<div>
+					<a href="index.html">Home</a>
+					<a href ="What.html">What is?</a>
+					<a href ="Importance.html">Importance</a>
+					<a href ="Adv.html">Advantages</a>
+					<a href ="system.html">System requirement</a>
 				</div>
 			</div>
-		</form>
+			<div><a href="info.html">About us</a></div>
+			<div class="List">Sign in
+				<div>
+					<a href ="registration.html">Sign in</a>
+					<a href ="login.html">Login</a>
+				</div>
+			</div>
+		</nav>
+		<div class="rcontainer">
+			<h1>Search book</h1>
+			<br/>
+			<form action="book.html">
+				<table class="tab">
+					<tr>
+						<td>Title:</td>
+						<td><input required type="text" name="title" placeholder="Enter the title of a book" size="40" class="regi"></td>
+					</tr>
+					<tr>
+						<td>Author:</td>
+						<td><input type="text" name="author" placeholder="Enter the name of author" size="40" class="regi"></td>
+					</tr>
+					<tr>
+						<td>Subject category:</td>
+						<td>
+							<select class="regi" name="category">
+								<option>None</option>
+								<option>Action and adventure</option>
+								<option>Biography/Autobiography</option>
+								<option>Classic</option>
+								<option>Comic and Graphic Novel</option>
+								<option>Crime and Detective</option>
+								<option>Drama</option>
+								<option>Fantasy</option>
+								<option>Historical Fiction</option>
+								<option>Horror</option>
+								<option>Humor</option>
+								<option>Mystery</option>
+								<option>Mythology</option>
+								<option>Romance</option>
+								<option>Reference Books</option>
+								<option>Science Fiction (Sci-Fi)</option>
+								<option>Suspense/Thriller</option>
+								<option>Other</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>Publication date:</td>
+						<td><input type="date" name="publishdate" size="40" class="regi"></td>
+					</tr>
+				</table>
+				<input type="submit" name="sub" value="submit" class="regi">
+				<input type="reset" name="resetbtn" value="reset" class="regi">
+			</form>
+		</div>
 	</body>
 </html>
