@@ -179,6 +179,9 @@ nav .List div a, .sidebar a, .contact {
 ::placeholder {
 	color: white;
 }
+:-webkit-autofill, :autofill {
+	text-shadow: none;
+}
 .regi:hover {
 	background-color: rgba(255, 0, 0, 1);
 }
