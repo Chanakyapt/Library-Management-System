@@ -142,6 +142,7 @@ nav .List div a, .sidebar a, .contact {
 	font-size: 30px;
 	background-image: none;
 	background-color: rgba(255, 0, 0, 0.8);
+	overflow: auto;
 }
 .fitter {
 	width: 100%;
